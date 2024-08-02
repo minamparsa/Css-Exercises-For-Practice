@@ -1,0 +1,25 @@
+.cat{
+  background-image: url("image/day.jpg");
+  width: 200px;
+  height: 200px;
+}
+
+.bird {
+  width: 900px;
+  height: 1200px;
+  background-image: url("image/cat.jpg");
+  background-size: cover;
+} 
+
+.smile{
+  width: 800px;
+  height: 500px;
+  background-image: url("image/day.jpg");
+  background-size: contain;
+  
+}
+body {
+  background-image: url("image/night.jpg");
+  /* background-repeat: no-repeat; */
+  background-repeat: repeat-y;
+}

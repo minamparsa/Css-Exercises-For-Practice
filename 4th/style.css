@@ -1,0 +1,71 @@
+.dog {
+  background-color: brown;
+  width: 100px;
+  height: 200px;
+}
+
+.dog1 {
+  background-image: conic-gradient(red, yellow, green, pink,blue);
+  width: 400px;
+  height: 400px;
+}
+
+.dog2 {
+  background-image: linear-gradient( to right, aqua, green, pink,yellow);
+  width: 400px;
+  height: 400px;
+}
+
+.dog3 {
+  background-image: linear-gradient(to left, black, green, pink,blue);
+  width: 400px;
+  height: 400px;
+}
+
+.dog4 {
+  background-image: linear-gradient( to bottom right, black, green, pink,blue);
+  width: 400px;
+  height: 400px;
+}
+
+.dog5 {
+  background-image: linear-gradient( to bottom left, black, green, pink,blue);
+  width: 400px;
+  height: 400px;
+}
+
+.dog6 {
+  background-image: linear-gradient( to top left, black, green, pink,blue);
+  width: 400px;
+  height: 400px;
+}
+
+.dog7 {
+  background-image: linear-gradient( to top right, black, green, pink,blue);
+  width: 400px;
+  height: 400px;
+}
+
+.dog8 {
+  background-image: linear-gradient( 160deg, black, green, pink,blue);
+  width: 400px;
+  height: 400px;
+}
+
+.dog9 {
+  background-image: radial-gradient( circle, black, green, pink,blue);
+  width: 400px;
+  height: 400px;
+}
+
+.dog10 {
+  background-image: radial-gradient( circle, black, green, pink,blue 50%);
+  width: 400px;
+  height: 400px;
+}
+
+.dog11 {
+  background-image: repeating-radial-gradient( circle, black, green, pink,blue 50%);
+  width: 400px;
+  height: 400px;
+}

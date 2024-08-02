@@ -1,0 +1,23 @@
+.my {
+  color: red;
+} 
+
+.way {
+  color: #28dd1b;
+}
+
+.life {
+  color: rgb(149, 155, 161);
+}
+
+.time {
+  color: rgba(27, 45, 209, 0.5);
+}
+
+.wood {
+  color: hsl(300, 100%, 70%);
+}
+
+.happy {
+  color: hsla(330, 96%, 49%, 0.7);
+}

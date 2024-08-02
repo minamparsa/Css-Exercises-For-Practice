@@ -1,0 +1,63 @@
+
+html {
+  font-size: 100px;
+}
+
+div {
+  font-size: 50px;
+}
+
+/* absolute : cm mm inch px*/
+
+.p1 {
+  font-size: 10mm;
+}
+
+.p2 {
+  font-size: 2cm;
+}
+
+.p3 {
+  font-size: 6ch;
+}
+
+.p4 {
+  font-size: 50px;
+}
+
+/* relative : % em rem vw*/
+
+.p5 {
+  font-size: 20%;        
+   /* 20% * parent's size = THE SIZE         منظورش 20 درصد نسبت به تگ پدرش هست. اینطوری محاسبه میشه */
+}
+
+.p6 {
+  font-size: 0.5em;
+ /* 0.5 * parent's size = THE SIZE           اینطوری محاسبه میشه                */
+}
+
+.p7 {
+  font-size: 0.5rem;
+  /* 0.5 * Html's size = THE SIZE           اینطوری محاسبه میشه                */
+}
+
+.p8 {
+  font-size: 5vw;
+  /* 5 * view port width's size = THE SIZE          یعنی سایز رو 5 برابر کن (نسبت به عرض مرورگر). */
+}
+
+.p8 {
+  font-size: 5vh;
+  /* 5 * view port height's size = THE SIZE          یعنی سایز رو 5 برابر کن (نسبت به ارتفاع مرورگر). */
+}
+
+.p9 {
+  font-size: 3vmax;
+  /* اول بزرگترین بین ارتفاع و عرض مرورگر رو پیدا میکنه و بعد نسبت به اون 3 برابر میکنه  */
+}
+
+.p10 {
+  font-size: 3vmin;
+  /* اول کوچکترین بین ارتفاع و عرض مرورگر رو پیدا میکنه و بعد نسبت به اون 3 برابر میکنه  */
+}

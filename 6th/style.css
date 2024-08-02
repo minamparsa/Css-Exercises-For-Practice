@@ -1,0 +1,80 @@
+body {
+  background-image: url("image/night.jpg");
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+p {
+  border: 3px solid red;
+  padding: 15px;
+  background-color: aqua;
+}
+
+/* background-clip is for when you set a color as the background */
+.border {
+  background-clip: border-box;
+  border: 5px dotted red;
+}
+
+.padding {
+  border: 7px dotted red;
+  background-clip: padding-box;
+}
+
+.content {
+  background-clip: content-box;
+}
+
+.text {
+  border: 5px dotted red;
+  background-clip: text;
+}
+
+.tim {
+  background-color: rgb(23, 210, 223);
+  background-clip: content-box;
+  border: 6px dotted blue;
+}
+
+/* background-origin is for when you set an image as the background */
+.sun1{
+  background-image: url("image/day.jpg");
+  background-origin: border-box;
+  border: 6px dotted rgb(0, 255, 17);
+}
+.sun2{
+  background-image: url("image/day.jpg");
+  background-origin:content-box;
+  border: 6px dotted blue;
+}
+.sun3{
+  background-image: url("image/day.jpg");
+  background-origin: padding-box;
+  border: 6px dotted blue;
+}
+
+#example1 {
+  border: 10px dashed black;
+  padding: 25px;
+  background: url(image/day.jpg);
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+}
+
+#example2 {
+  border: 10px dashed black;
+  padding: 25px;
+  background: url(image/day.jpg);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+}
+
+#example3 {
+  border: 10px dashed black;
+  padding: 25px;
+  background: url(image/day.jpg);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
