@@ -1,0 +1,43 @@
+table,th,td {
+  border: 3px solid black;
+}
+
+table {
+  /* border-collapse: separate; */
+  width: 100%;
+  border-spacing: 20px;
+}
+
+.a {
+    border-collapse: separate;
+}
+
+.b {
+    border-collapse: collapse;
+}
+
+th {
+  height: 30px;
+  text-align: center;
+}
+
+td {
+  height: 100px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+table {
+  caption-side: bottom;
+  empty-cells: hide;
+}
+
+.moon {
+  color: rgb(16, 44, 109);
+  background-color: lightcoral;
+}
+
+.sun {
+  color: rgb(16, 44, 109);
+  background-color: rgb(134, 71, 212);
+}

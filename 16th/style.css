@@ -1,0 +1,33 @@
+/* p {
+  font-weight: 700;
+} */
+
+/* p {
+  font-size: 20px;
+} */
+
+p {
+  direction: rtl;
+  font-family: ab;
+  
+}
+
+
+@font-face {
+  font-family: 'ab';
+  src: url('fonts/IranNastaliq.eot') format('eot');
+  src: url('fonts/IranNastaliq.ttf') format('ttf');
+  src: url('fonts/IranNastaliq.woff') format('woff');
+
+}
+
+
+
+
+
+
+
+
+
+
+

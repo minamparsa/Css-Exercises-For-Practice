@@ -1,0 +1,36 @@
+body {
+    background-image: url('image/day.jpg');
+}
+
+h1 {z-index: 0;}
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    border: solid 6px red;
+  }
+
+
+.first {
+    background-color: aqua;
+    width: 300px;
+    height: 80px;
+    border: 5px solid black;
+    /* overflow: hidden; */
+    /* overflow: visible; */
+    /* overflow: scroll; */
+    overflow-y: auto;
+    /* overflow-x: auto; */
+}
+
+
+
+
+.second {
+    background-color: chartreuse;
+    width: 50px;
+    border: 3px solid black;
+    overflow-x: scroll;
+
+}
