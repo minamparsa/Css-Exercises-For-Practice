@@ -1,0 +1,21 @@
+p, h1, h2, h3 {
+    color: red;
+}
+
+
+ div p {
+     color: red;
+ }
+
+
+ /* span>p {
+     color: red;
+ } */
+
+ /* div+p {
+     color: red;
+ } */
+
+ div~p {
+     color: red;
+ }

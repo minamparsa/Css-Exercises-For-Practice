@@ -1,0 +1,51 @@
+/* p::first-line {
+    color: red;
+} */
+
+/* p::first-letter {
+    font-size: 50px;
+} */
+
+/* h5::before {
+    content: 'H';
+    
+} */
+
+/* h5::after {
+    content: url("image/daffy.webp");
+} */
+
+a {
+    text-decoration: none;
+}
+
+/* a::after {
+    content: '--';
+} */
+
+/* a:hover::after {
+    content: '--->>>';
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

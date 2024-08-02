@@ -1,0 +1,52 @@
+.img {
+    width: 300px;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:orangered;
+}
+
+li {
+    display: inline-block;
+    color: rgb(4, 0, 255);
+    padding: 15px 20px;
+    font-weight: 800;
+    border: 1px solid black;
+    
+}
+
+
+.li1 {
+    background-color: greenyellow;
+}
+
+li {
+    
+    float: none;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
