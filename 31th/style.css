@@ -1,0 +1,54 @@
+/* input:checked {
+    height: 100px;
+    width: 200px;
+} */
+
+/* input[type=text]:disabled {
+    background-color: red;
+} */
+
+/* p:empty {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+} */
+
+p:first-child {
+    background-color: yellow;
+}
+
+ul>:first-child {
+    background-color: aqua;
+}
+
+ /* p:first-child {
+    background-color: aqua;
+}*/
+
+ 
+/* p:last-child {
+    background-color: blue;
+}  */
+
+/* p {
+    color: aqua;
+} */
+
+/* p:nth-child(odd) {
+    color: brown;
+}  */
+
+/* p:nth-child(even) {
+    color: brown;
+} */
+
+/* p:nth-child(3) {
+    color: brown;
+} */
+
+
+p:nth-child(3n+1) {
+    color: brown;
+}
+
+

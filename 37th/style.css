@@ -1,0 +1,75 @@
+/* img {
+    width: 100%;
+} */
+
+/* h1 {
+    font-size: 10vw;
+} */
+
+/* body {
+    background-color: aqua;
+} */
+
+/* @media screen and (max-width: 700px) {
+    body {
+        background-color: purple;
+    }
+} */
+
+/* @media screen and (orientation: landscape) {
+    body {
+        background-color: brown;
+    }
+} */
+
+
+* {
+    box-sizing: border-box;
+}
+
+.left {
+    background-color: aqua;
+    padding: 20px;
+    float: left;
+    width: 20%;
+}
+
+.main{
+    background-color: cadetblue;
+    padding: 20px;
+    float: left;
+    width: 60%;
+}
+
+.right {
+    background-color: chartreuse;
+    padding: 20px;
+    float: left;
+    width: 20%;
+}
+
+@media screen and (max-width: 4000px) {
+    .left,
+    .right,
+    .main {
+        width: 100%;
+    }
+} 
+
+/* @media not screen and (max-width: 4000px) {
+    .left,
+    .right,
+    .main {
+        width: 100%;
+    }
+} */
+
+p{
+    color: red !important;
+}
+
+#test {
+    color: blue;
+}
+
+
